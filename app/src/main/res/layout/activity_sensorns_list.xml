@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sesnsor"
+    tools:context=".Sensorns_list">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="101dp"
+            android:layout_marginEnd="116dp"
+            android:backgroundTint="#FF5722"
+            android:fontFamily="@font/amaranth_bold"
+            android:gravity="center"
+            android:text="Proximity sensor"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="116dp"
+            android:fontFamily="@font/amaranth_bold"
+            android:text="Pressure sensor"
+            android:textSize="20sp"
+            tools:backgroundTint="#FF5722" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="116dp"
+            android:backgroundTint="#FF5722"
+            android:fontFamily="@font/amaranth_bold"
+            android:text="Temperature Sensor"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="116dp"
+            android:fontFamily="@font/amaranth_bold"
+            android:text="Gyroscope sensor"
+            android:textSize="20sp"
+            tools:backgroundTint="#F44336" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="116dp"
+            android:backgroundTint="#FF5722"
+            android:fontFamily="@font/amaranth_bold"
+            android:text="Accelerometer sensor"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
